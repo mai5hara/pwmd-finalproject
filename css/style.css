@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#container{
+    width: 100%;
+}
+
+body{
+    color: #333333;
+    background-color: #EDEAEB;
+    font-family: 'Abel', sans-serif;   
+}
+
+
+
+/* ========================================
+This is the first comment of the html pages
+=========================================== */ 
+
+#first{
+    width: 100%;
+    height: 1000px;
+    position:relative;
+    top:100px;
+    margin-top:-100px;
+    padding-top:100px;
+
+    
+
+}
+/* ========================================
+For the menu of each page
+=========================================== */
+nav{
+   
+
+    width:100%;
+    height: 50px;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    text-align: right;
+    background-color: white;
+    line-height: 50px;
+
+}
+
+
+a{
+    width: 100px;
+    padding: 10px;
+    font-size: 1em;
+    text-decoration: none;
+    color: #333333;
+}
+
+h1{
+    float:left;
+    padding-left: 30px;
+    font-size: 2.2em;
+}
+
+
+
+li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+li:last-child {
+    padding-right: 30px;
+}
+
+/* ====================================== 
+This is the first section of html pages
+========================================= */
+h2 {
+    text-align: center;
+    padding: 80px 60px;
+    font-size: 2.5em;
+}
+
+#wrapper1{
+    margin: 0 auto;
+    width: 950px;
+
+}
+#introduction1{
+    width: 450px;
+    height: 300px;
+    float: left;
+    word-wrap: break-word;   
+}
+
+#introduction2{
+    width: 450px;
+    height: 300px;
+    float: right;
+    word-wrap: break-word;
+}
+
+#introduction3{
+    width: 450px;
+    height: 300px;
+    float: left;
+    word-wrap: break-word;
+}
+
+#introduction4{
+    width: 450px;
+    height: 300px;
+    float: right;
+    word-wrap: break-word;
+}
+
+#wrapper1 img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    display: block;
+    margin-right: 15px;
+}
+
+.aboutus_name {
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+
+/* ====================================== 
+This is the second section of html pages
+========================================= */
+#second{
+    width: 100%;
+    height: 1200px;
+}
+/* ====================================== 
+This is the third section of html pages
+========================================  */
+#third{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    position:relative;
+    top:100px;
+    margin-top:-100px;
+    padding-bottom: 100px;
+}
+
+.code-third{
+    width: 1000px;
+    height: auto;
+    background-color: #EDEAEB;
+    margin: 0 auto;
+}
+
+
+#third h3{
+    font-size: 1.5em;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    
+}
+
+
+/* ======================================
+This is the fourth section of html pages
+========================================= */
+#fourth{
+    width: 100%;
+    height: auto;
+    position:relative;
+    top:100px;
+    margin-top:-100px;
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+
+.code-jspart {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.howto-calculate {
+    margin-top: 40px;
+}
+
+.code-jspart-tl {
+    font-size: 1.7em;
+    border-left: 5px solid #95CECF;
+    padding-left: 5px;
+}
+
+
+.code-jspart-d {
+    font-size: 1.3em;
+    padding: 15px 0 20px 20px;
+    line-height: 35px;
+}
+
+.code-jspart-fx {
+    font-size: 1.7em;
+    padding-left: 10px;
+}
+
+
+/* ======================================
+This is the fifth section of html pages
+========================================= */
+#fifth{
+    width: 100%;
+    padding-top: 1px;
+    height: 1150px;
+    background-color: #95CECF;
+    position:relative;
+    top:100px;
+    margin-top:-50px;
+}
+
+#fifth h3{
+    font-size: 1.5em;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    
+}
+#fifth .code{
+    width: 1000px;
+    height: 280px;
+    background-color:Black;
+    margin: 0 auto;
+    padding: 30px;
+    overflow:auto;
+    color: white;
+}
+
+#fifth .text{
+    width: 1000px;
+    height: 280px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px;
+    overflow:auto;
+}
+
+#result {
+    padding-top: 30px;
+}
+
+/* ======================================
+This is the sixth section of html pages
+========================================= */
+#sixth{
+    width: 100%;
+    padding-top: 1px;
+    height: 1200px;
+    background-color: #EDEAEB;
+    position:relative;
+    top:100px;
+    margin-top:-100px;
+}
+
+#sixth h3{
+    font-size: 1.5em;
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    
+}
+#sixth .code{
+    width: 1000px;
+    height: 180px;
+    background-color: black;
+    margin: 0 auto;
+    padding: 30px;
+    overflow:auto;
+    color: white;
+}
+
+#sixth .text{
+    width: 1000px;
+    height: 480px;
+    margin: 0 auto ;
+    color: black;
+  
+    
+}
+video{
+    text-align: center;
+    width: 800px;
+}
